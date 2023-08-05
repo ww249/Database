@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="car_rentDataSet1" targetNamespace="http://tempuri.org/car_rentDataSet1.xsd" xmlns:mstns="http://tempuri.org/car_rentDataSet1.xsd" xmlns="http://tempuri.org/car_rentDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="car_rentConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="car_rentConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.租车管理系统.Properties.Settings.GlobalReference.Default.car_rentConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="t_store_infoTableAdapter" GeneratorDataComponentClassName="t_store_infoTableAdapter" Name="t_store_info" UserDataComponentName="t_store_infoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="car_rentConnectionString (Settings)" DbObjectName="car_rent.dbo.t_store_info" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT storename, storepla FROM dbo.t_store_info</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="storename" DataSetColumn="storename" />
+              <Mapping SourceColumn="storepla" DataSetColumn="storepla" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="car_rentDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="car_rentDataSet1" msprop:Generator_DataSetName="car_rentDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="t_store_info" msprop:Generator_RowEvHandlerName="t_store_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="t_store_infoRowDeleted" msprop:Generator_RowDeletingName="t_store_infoRowDeleting" msprop:Generator_RowEvArgName="t_store_infoRowChangeEvent" msprop:Generator_TablePropName="t_store_info" msprop:Generator_RowChangedName="t_store_infoRowChanged" msprop:Generator_RowChangingName="t_store_infoRowChanging" msprop:Generator_TableClassName="t_store_infoDataTable" msprop:Generator_RowClassName="t_store_infoRow" msprop:Generator_TableVarName="tablet_store_info" msprop:Generator_UserTableName="t_store_info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="storename" msprop:Generator_ColumnPropNameInRow="storename" msprop:Generator_ColumnPropNameInTable="storenameColumn" msprop:Generator_ColumnVarNameInTable="columnstorename" msprop:Generator_UserColumnName="storename">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="storepla" msprop:Generator_ColumnPropNameInRow="storepla" msprop:Generator_ColumnPropNameInTable="storeplaColumn" msprop:Generator_ColumnVarNameInTable="columnstorepla" msprop:Generator_UserColumnName="storepla">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

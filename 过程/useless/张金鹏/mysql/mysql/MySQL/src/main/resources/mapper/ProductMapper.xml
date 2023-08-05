@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjp.mapper.ProductMapper">
+
+    <resultMap id="BaseResultMap" type="com.zjp.domain.Product">
+            <id property="pro_id" column="pro_id" jdbcType="INTEGER"/>
+            <result property="pro_name" column="pro_name" jdbcType="VARCHAR"/>
+            <result property="pro_introduce" column="pro_introduce" jdbcType="VARCHAR"/>
+            <result property="pro_stock" column="pro_stock" jdbcType="INTEGER"/>
+            <result property="pro_price" column="pro_price" jdbcType="INTEGER"/>
+            <result property="pro_sort" column="pro_sort" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        pro_id,pro_name,pro_introduce,
+        pro_stock,pro_price,pro_sort
+    </sql>
+</mapper>

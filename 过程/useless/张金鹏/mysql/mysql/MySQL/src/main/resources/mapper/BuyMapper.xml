@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjp.mapper.BuyMapper">
+
+    <resultMap id="BaseResultMap" type="com.zjp.domain.Buy">
+            <id property="buy_id" column="buy_id" jdbcType="INTEGER"/>
+            <result property="ord_id" column="ord_id" jdbcType="INTEGER"/>
+            <result property="add_id" column="add_id" jdbcType="INTEGER"/>
+            <result property="buy_time" column="buy_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        buy_id,ord_id,add_id,
+        buy_time
+    </sql>
+</mapper>

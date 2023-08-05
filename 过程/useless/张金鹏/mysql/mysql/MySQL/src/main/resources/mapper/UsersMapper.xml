@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjp.mapper.UsersMapper">
+
+    <resultMap id="BaseResultMap" type="com.zjp.domain.Users">
+            <id property="use_id" column="use_id" jdbcType="INTEGER"/>
+            <result property="use_sex" column="use_sex" jdbcType="INTEGER"/>
+            <result property="use_hobby" column="use_hobby" jdbcType="VARCHAR"/>
+            <result property="use_name" column="use_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        use_id,use_sex,use_hobby,
+        use_name
+    </sql>
+</mapper>

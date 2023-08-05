@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjp.mapper.LoginMapper">
+
+    <resultMap id="BaseResultMap" type="com.zjp.domain.Login">
+            <id property="log_id" column="log_id" jdbcType="INTEGER"/>
+            <result property="log_name" column="log_name" jdbcType="VARCHAR"/>
+            <result property="log_password" column="log_password" jdbcType="VARCHAR"/>
+            <result property="log_role" column="log_role" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        log_id,log_name,log_password,
+        log_role
+    </sql>
+</mapper>

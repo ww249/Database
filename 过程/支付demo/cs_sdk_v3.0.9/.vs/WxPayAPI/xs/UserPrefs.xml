@@ -1,0 +1,65 @@
+﻿<Properties StartupConfiguration="{25911370-F06A-4956-8EE3-659A7BA14961}|">
+  <MonoDevelop.Ide.ItemProperties.WxPayAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WxPayAPI/lib/WxPayApi.cs">
+    <Files>
+      <File FileName="WxPayAPI/business/MicroPay.cs" Line="99" Column="27" />
+      <File FileName="WxPayAPI/business/Refund.cs" Line="1" Column="1" />
+      <File FileName="WxPayAPI/business/DownloadBill.cs" Line="29" Column="27" />
+      <File FileName="WxPayAPI/example/DownloadBillPage.aspx.cs" Line="34" Column="33" />
+      <File FileName="WxPayAPI/Properties/AssemblyInfo.cs" Line="36" Column="1" />
+      <File FileName="WxPayAPI/lib/Config.cs" Line="14" Column="16" />
+      <File FileName="WxPayAPI/lib/IConfig.cs" Line="17" Column="17" />
+      <File FileName="WxPayAPI/lib/Data.cs" Line="179" Column="1" />
+      <File FileName="WxPayAPI/lib/SafeXmlDocument.cs" Line="13" Column="1" />
+      <File FileName="WxPayAPI/business/OrderQuery.cs" Line="23" Column="1" />
+      <File FileName="WxPayAPI/business/JsApiPay.cs" Line="197" Column="63" />
+      <File FileName="WxPayAPI/business/RefundQuery.cs" Line="1" Column="1" />
+      <File FileName="WxPayAPI/lib/WxPayApi.cs" Line="79" Column="39" />
+      <File FileName="WxPayAPI/lib/Exception.cs" Line="1" Column="1" />
+      <File FileName="WxPayAPI/lib/HttpService.cs" Line="57" Column="22" />
+      <File FileName="WxPayAPI/lib/Notify.cs" Line="48" Column="25" />
+      <File FileName="WxPayAPI/lib/RandomGenerator.cs" Line="29" Column="50" />
+      <File FileName="WxPayAPI/example/JsApiPayPage.aspx.cs" Line="8" Column="24" />
+      <File FileName="WxPayAPI/example/NativePayPage.aspx.cs" Line="15" Column="2" />
+      <File FileName="WxPayAPI/lib/Log.cs" Line="22" Column="14" />
+      <File FileName="WxPayAPI/lib/DemoConfig.cs" Line="86" Column="6" />
+      <File FileName="WxPayAPI/example/ProductPage.aspx.cs" Line="18" Column="17" />
+      <File FileName="WxPayAPI/business/NativeNotify.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WxPayAPI" expanded="True">
+            <Node name="WxPayAPI" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="business" expanded="True" />
+              <Node name="example" expanded="True">
+                <Node name="JsApiPayPage.aspx" expanded="True" />
+                <Node name="NativePayPage.aspx" expanded="True" />
+                <Node name="ProductPage.aspx" expanded="True" />
+              </Node>
+              <Node name="lib" expanded="True">
+                <Node name="WxPayApi.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/WxPayApi.cs" relfile="WxPayAPI/lib/WxPayApi.cs" line="618" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/Data.cs" relfile="WxPayAPI/lib/Data.cs" line="265" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/Data.cs" relfile="WxPayAPI/lib/Data.cs" line="301" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/Data.cs" relfile="WxPayAPI/lib/Data.cs" line="252" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/Data.cs" relfile="WxPayAPI/lib/Data.cs" line="223" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/Data.cs" relfile="WxPayAPI/lib/Data.cs" line="179" column="1" />
+      <Breakpoint file="/Users/linyi/work_wxg/wxpay-sdk-donet/WxPayAPI_CS_v3/WxPayAPI/WxPayAPI/lib/WxPayApi.cs" relfile="WxPayAPI/lib/WxPayApi.cs" line="92" column="53" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
